@@ -1,0 +1,59 @@
+* {
+  -webkit-user-select: text !important;
+  -moz-user-select: text !important;
+  -ms-user-select: text !important;
+  user-select: text !important;
+  -webkit-touch-callout: default !important;
+}
+
+/* 工具栏样式 */
+.cliptext-toolbar {
+  position: fixed;
+  background: #242424;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(255, 255, 255, 0.05);
+  padding: 6px 8px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  z-index: 9999999;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(8px) scale(0.98);
+  transition: all 0.2s cubic-bezier(0.3, 0, 0.2, 1);
+  min-height: 40px;
+  pointer-events: auto !important;
+}
+
+.cliptext-toolbar.show {
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: translateY(0) scale(1);
+}
+
+/* 其他工具栏相关样式... */
+.cliptext-toolbar .toolbar-icon {
+  width: 20px;
+  height: 20px;
+  padding: 4px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 保存对话框样式 */
+.save-dialog {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+  width: 90%;
+  max-width: 1000px;
+  height: 85vh;
+  max-height: 750px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 其他对话框相关样式... */ 

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="donateTitle">感谢支持</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #f5f7fa;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      overflow: hidden;  /* 防止出现滚动条 */
+    }
+
+    .donate-container {
+      background: #fff;
+      padding: 20px;
+      border-radius: 16px;
+      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+      text-align: center;
+      width: 600px;  /* 固定容器宽度 */
+    }
+
+    .donate-header {
+      margin-bottom: 16px;
+    }
+
+    .donate-header h1 {
+      margin: 0;
+      font-size: 20px;
+      color: #333;
+      font-weight: 600;
+    }
+
+    .donate-desc {
+      color: #666;
+      font-size: 14px;
+      margin: 8px 0 16px;
+    }
+
+    .qr-container {
+      display: flex;
+      gap: 60px;
+      justify-content: center;
+      position: relative;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    .qr-container::after {
+      content: '';
+      position: absolute;
+      top: 15%;
+      bottom: 15%;
+      left: 50%;
+      width: 1px;
+      background: #eee;
+      transform: translateX(-50%);
+    }
+
+    .qr-item {
+      text-align: center;
+      padding: 0 10px;
+    }
+
+    .qr-wrapper {
+      padding: 10px;
+      background: #fff;
+      border-radius: 12px;
+      border: 1px solid #eee;
+      transition: transform 0.2s;
+      position: relative;
+    }
+
+    .qr-wrapper:hover {
+      transform: translateY(-2px);
+      border-color: #e0e0e0;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+    }
+
+    .qr-code {
+      width: 180px;  /* 稍微减小二维码尺寸 */
+      height: 180px;
+      display: block;
+      border-radius: 6px;
+      image-rendering: -webkit-optimize-contrast;
+    }
+
+    .qr-label {
+      display: inline-block;
+      margin-top: 12px;
+      font-size: 14px;
+      color: #333;
+      font-weight: 500;
+      background: #f5f7fa;
+      padding: 4px 12px;
+      border-radius: 12px;
+      min-width: 80px;
+    }
+
+    .close-hint {
+      margin-top: 14px;
+      color: #999;
+      font-size: 12px;
+      opacity: 0.8;
+    }
+  </style>
+  <script src="donate.js"></script>
+</head>
+<body>
+  <div class="donate-container">
+    <div class="donate-header">
+      <h1 data-i18n="donateTitle">感谢支持</h1>
+      <p class="donate-desc" data-i18n="donateDesc">如果这个扩展对您有帮助，欢迎赞赏支持~</p>
+    </div>
+    <div class="qr-container">
+      <div class="qr-item">
+        <div class="qr-wrapper">
+          <img src="images/wechat_qr.png" alt="WeChat Pay" class="qr-code">
+        </div>
+        <span class="qr-label" data-i18n="wechatPay">微信支付</span>
+      </div>
+      <div class="qr-item">
+        <div class="qr-wrapper">
+          <img src="images/alipay_qr.png" alt="AliPay" class="qr-code">
+        </div>
+        <span class="qr-label" data-i18n="aliPay">支付宝</span>
+      </div>
+    </div>
+    <p class="close-hint" data-i18n="closeHint">点击任意处关闭</p>
+  </div>
+</body>
+</html> 

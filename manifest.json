@@ -1,0 +1,71 @@
+{
+  "manifest_version": 3,
+  "default_locale": "en",
+  "name": "ClipText",
+  "short_name": "ClipText",
+  "version": "1.0.0",
+  "author": "Gu Yukin",
+  "browser_specific_settings": {
+    "edge": {
+      "browser_action_next_to_addressbar": true
+    }
+  },
+  "minimum_chrome_version": "88",
+  "description": "🔗 一键复制,无需登录 | ✂️ 一键收集,留住灵感 | 📋 Markdown 格式导出 | 🎯 支持中英文",
+  "permissions": [
+    "contextMenus",
+    "storage",
+    "activeTab",
+    "scripting",
+    "tabs",
+    "clipboardRead",
+    "clipboardWrite"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_start"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/save_inspiration_16.png",
+      "32": "icons/save_inspiration_32.png",
+      "48": "icons/save_inspiration_48.png",
+      "128": "icons/save_inspiration_128.png"
+    },
+    "default_title": "ClipText"
+  },
+  "icons": {
+    "16": "icons/save_inspiration_16.png",
+    "32": "icons/save_inspiration_32.png",
+    "48": "icons/save_inspiration_48.png",
+    "128": "icons/save_inspiration_128.png"
+  },
+  "optional_permissions": [
+    "downloads.shelf"
+  ],
+  "homepage_url": "https://github.com/guyukin0508/cliptext",
+  "options_page": "privacy.html",
+  "web_accessible_resources": [{
+    "resources": [
+      "icons/*",
+      "images/*.png",
+      "donate.html"
+    ],
+    "matches": ["<all_urls>"]
+  }],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+} 

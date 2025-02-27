@@ -1,0 +1,89 @@
+
+/* 捐赠页面样式 */
+.donate-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.donate-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.donate-title {
+  font-size: 24px;
+  color: #2196F3;
+  margin-bottom: 10px;
+}
+
+.donate-description {
+  color: #666;
+  line-height: 1.6;
+}
+
+.donate-options {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin: 30px 0;
+}
+
+.donate-option {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.donate-option:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.donate-qr {
+  max-width: 200px;
+  margin: 10px auto;
+  border-radius: 8px;
+}
+
+.donate-label {
+  font-size: 18px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.donate-footer {
+  text-align: center;
+  margin-top: 30px;
+  color: #666;
+}
+
+.donate-heart {
+  color: #e91e63;
+  animation: heartbeat 1.5s ease infinite;
+}
+
+@keyframes heartbeat {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+/* 响应式设计 */
+@media (max-width: 600px) {
+  .donate-container {
+    padding: 15px;
+  }
+  
+  .donate-title {
+    font-size: 20px;
+  }
+  
+  .donate-options {
+    grid-template-columns: 1fr;
+  }
+}

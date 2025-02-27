@@ -1,0 +1,282 @@
+{
+  "appName": {
+    "message": "ClipText",
+    "description": "Extension name"
+  },
+  "appDesc": {
+    "message": "Collect wonderful content with one click, never let inspiration slip away",
+    "description": "Extension description"
+  },
+  "dialogTitle": {
+    "message": "✨ This text is amazing, let's save it:",
+    "description": "Dialog title"
+  },
+  "dragHandleTitle": {
+    "message": "Drag to move",
+    "description": "Drag handle tooltip"
+  },
+  "statsTitle": {
+    "message": "📊 Statistics",
+    "description": "Statistics section title"
+  },
+  "charCount": {
+    "message": "Characters",
+    "description": "Character count label"
+  },
+  "chineseCount": {
+    "message": "Chinese",
+    "description": "Chinese character count label"
+  },
+  "englishCount": {
+    "message": "English",
+    "description": "English word count label"
+  },
+  "addTagsTitle": {
+    "message": "🏷️ Add Tags",
+    "description": "Add tags section title"
+  },
+  "pressEnterHint": {
+    "message": "Press Enter to add",
+    "description": "Add tag hint"
+  },
+  "addTagPlaceholder": {
+    "message": "Enter tag name...",
+    "description": "Tag input placeholder"
+  },
+  "copyButton": {
+    "message": "Copy Content",
+    "description": "Copy button text"
+  },
+  "saveButton": {
+    "message": "Quick Save",
+    "description": "Save button text"
+  },
+  "appendButton": {
+    "message": "Append",
+    "description": "Append button text"
+  },
+  "cancelButton": {
+    "message": "Let me think about it",
+    "description": "Cancel button text"
+  },
+  "collectionTime": {
+    "message": "📝 Collection Time",
+    "description": "Collection time label"
+  },
+  "source": {
+    "message": "🔗 Source",
+    "description": "Source label"
+  },
+  "tags": {
+    "message": "🏷️ Tags",
+    "description": "Tags label"
+  },
+  "copySuccess": {
+    "message": "📋 Content copied to clipboard",
+    "description": "Copy success message"
+  },
+  "copyFail": {
+    "message": "Copy failed",
+    "description": "Copy failed message"
+  },
+  "saveSuccess": {
+    "message": "✨ New inspiration collected, let's start today's journey",
+    "description": "Save success message"
+  },
+  "saveFail": {
+    "message": "Save failed",
+    "description": "Save failed message"
+  },
+  "appendSuccess": {
+    "message": "✨ Content appended, happiness +1",
+    "description": "Append success message"
+  },
+  "cancel": {
+    "message": "🐟 Oops, let this fish go~",
+    "description": "Cancel operation message"
+  },
+  "supportDev": {
+    "message": "Support",
+    "description": "Support developer button text"
+  },
+  "supportDevTitle": {
+    "message": "Support Developer",
+    "description": "Support developer button title"
+  },
+  "supportDevAria": {
+    "message": "Open support developer dialog",
+    "description": "Support developer button aria label"
+  },
+  "viewDocs": {
+    "message": "Docs",
+    "description": "View documentation link text"
+  },
+  "reportIssue": {
+    "message": "Issues",
+    "description": "Report issue link text"
+  },
+  "donateTitle": {
+    "message": "Thank You",
+    "description": "Donate dialog title"
+  },
+  "donateDesc": {
+    "message": "If you find this extension helpful, feel free to support me~",
+    "description": "Donate dialog description"
+  },
+  "wechatPay": {
+    "message": "WeChat Pay",
+    "description": "WeChat Pay label"
+  },
+  "aliPay": {
+    "message": "AliPay",
+    "description": "AliPay label"
+  },
+  "closeHint": {
+    "message": "Click anywhere to close",
+    "description": "Close hint text"
+  },
+  "copyAndClose": {
+    "message": "🎣 Haha, I caught the big fish I wanted",
+    "description": "Message when copy and close"
+  },
+  "donateButton": {
+    "message": "Buy me a coffee ☕",
+    "description": "Donate button text"
+  },
+  "fileSelectTitle": {
+    "message": "Select save location",
+    "description": "File selection dialog title"
+  },
+  "createNewFile": {
+    "message": "Create new collection file",
+    "description": "Create new file button"
+  },
+  "appendExisting": {
+    "message": "Or append to existing file:",
+    "description": "Append option text"
+  },
+  "languageSettings": {
+    "message": "🌐 Language Settings",
+    "description": "Language settings label"
+  },
+  "languageAuto": {
+    "message": "🔄 Auto (Follow browser)",
+    "description": "Auto language option"
+  },
+  "languageZh": {
+    "message": "🇨🇳 Chinese",
+    "description": "Chinese language option"
+  },
+  "languageEn": {
+    "message": "🇺🇸 English",
+    "description": "English language option"
+  },
+  "savePathLabel": {
+    "message": "Default save path:",
+    "description": "Save path label"
+  },
+  "selectDirButton": {
+    "message": "Select Directory",
+    "description": "Select directory button text"
+  },
+  "saveSettingsButton": {
+    "message": "Save Settings",
+    "description": "Save settings button text"
+  },
+  "savePathPlaceholder": {
+    "message": "Please enter or select save path",
+    "description": "Save path input placeholder"
+  },
+  "savePathTitle": {
+    "message": "Default path for file saving",
+    "description": "Save path input tooltip"
+  },
+  "settingsTitle": {
+    "message": "Settings",
+    "description": "Settings title"
+  },
+  "languageLabel": {
+    "message": "Interface language:",
+    "description": "Language label"
+  },
+  "autoLanguage": {
+    "message": "Auto detect",
+    "description": "Auto detect language"
+  },
+  "chineseLanguage": {
+    "message": "Chinese",
+    "description": "Chinese language"
+  },
+  "englishLanguage": {
+    "message": "English",
+    "description": "English language"
+  },
+  "defaultPathLabel": {
+    "message": "Default save path:",
+    "description": "Default path label"
+  },
+  "defaultPathPlaceholder": {
+    "message": "Select or enter save path",
+    "description": "Default path placeholder"
+  },
+  "selectPathTitle": {
+    "message": "Select save path",
+    "description": "Select path title"
+  },
+  "defaultPathDesc": {
+    "message": "After setting, this directory will be opened by default when saving files",
+    "description": "Default path description"
+  },
+  "recentPathLabel": {
+    "message": "Recent paths:",
+    "description": "Recent paths label"
+  },
+  "noRecentPath": {
+    "message": "No recent paths",
+    "description": "No recent paths message"
+  },
+  "useThisPath": {
+    "message": "Use this path",
+    "description": "Use path button text"
+  },
+  "saveSettings": {
+    "message": "Save Settings",
+    "description": "Save settings button"
+  },
+  "settingsSaved": {
+    "message": "Settings saved!",
+    "description": "Settings saved message"
+  },
+  "languageChangedZh": {
+    "message": "Language changed to Chinese",
+    "description": "Changed to Chinese message"
+  },
+  "languageChangedEn": {
+    "message": "Language changed to English",
+    "description": "Changed to English message"
+  },
+  "pathUpdated": {
+    "message": "Save path updated",
+    "description": "Path updated message"
+  },
+  "pathSelectFailed": {
+    "message": "Failed to select directory",
+    "description": "Directory selection failed message"
+  },
+  "contextMenuTitle": {
+    "message": "✨ ClipText - Start my inspiration collection journey",
+    "description": "Context menu title"
+  },
+  "languageChangeFailed": {
+    "message": "Failed to change language",
+    "description": "Language change failed message"
+  },
+  "close": {
+    "message": "Close",
+    "description": "Close button text"
+  },
+  "hour12Format": {
+    "message": "false",
+    "description": "Whether to use 12-hour format"
+  }
+} 

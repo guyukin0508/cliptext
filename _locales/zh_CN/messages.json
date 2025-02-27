@@ -1,0 +1,265 @@
+{
+  "appName": {
+    "message": "ClipText",
+    "description": "扩展名称"
+  },
+  "appDesc": {
+    "message": "一键收集精彩内容，让灵感永不溜走",
+    "description": "扩展描述"
+  },
+  "dialogTitle": {
+    "message": "✨ 这段文字太棒了，让我们保存下来：",
+    "description": "对话框标题"
+  },
+  "copyButton": {
+    "message": "复制内容",
+    "description": "复制按钮文本"
+  },
+  "saveButton": {
+    "message": "一键收集",
+    "description": "保存按钮文本"
+  },
+  "appendButton": {
+    "message": "一键追加",
+    "description": "追加按钮文本"
+  },
+  "cancelButton": {
+    "message": "哎呀，我再考虑考虑",
+    "description": "取消按钮文本"
+  },
+  "addTagPlaceholder": {
+    "message": "输入标签名称...",
+    "description": "标签输入框占位符"
+  },
+  "statsTitle": {
+    "message": "📊 字数统计",
+    "description": "统计部分标题"
+  },
+  "charCount": {
+    "message": "字符",
+    "description": "字符计数标签"
+  },
+  "chineseCount": {
+    "message": "汉字",
+    "description": "汉字计数标签"
+  },
+  "englishCount": {
+    "message": "英文",
+    "description": "英文计数标签"
+  },
+  "collectionTime": {
+    "message": "📝 收集时间",
+    "description": "收集时间标签"
+  },
+  "source": {
+    "message": "🔗 来源",
+    "description": "来源标签"
+  },
+  "tags": {
+    "message": "🏷️ 标签",
+    "description": "标签标签"
+  },
+  "copySuccess": {
+    "message": "📋 内容已复制到剪贴板",
+    "description": "复制成功提示"
+  },
+  "copyFail": {
+    "message": "复制失败",
+    "description": "复制失败提示"
+  },
+  "saveSuccess": {
+    "message": "✨ 新灵感已收集,开启今天的快乐之旅",
+    "description": "保存成功提示"
+  },
+  "saveFail": {
+    "message": "保存失败",
+    "description": "保存失败提示"
+  },
+  "appendSuccess": {
+    "message": "✨ 灵感已追加到文件,快乐 +1",
+    "description": "追加成功提示"
+  },
+  "cancel": {
+    "message": "🐟 哎呀，放生了一条小鱼~",
+    "description": "取消操作提示"
+  },
+  "fileSelectTitle": {
+    "message": "选择保存位置",
+    "description": "文件选择对话框标题"
+  },
+  "createNewFile": {
+    "message": "创建新的收藏文件",
+    "description": "创建新文件按钮"
+  },
+  "appendExisting": {
+    "message": "或追加到现有文件：",
+    "description": "追加选项文本"
+  },
+  "dragHandleTitle": {
+    "message": "拖动移动位置",
+    "description": "拖动句柄提示"
+  },
+  "languageSettings": {
+    "message": "🌐 语言设置",
+    "description": "语言设置标签"
+  },
+  "languageAuto": {
+    "message": "🔄 自动 (跟随浏览器)",
+    "description": "自动语言选项"
+  },
+  "languageZh": {
+    "message": "🇨🇳 中文",
+    "description": "中文语言选项"
+  },
+  "languageEn": {
+    "message": "🇺🇸 英文",
+    "description": "英文语言选项"
+  },
+  "savePathLabel": {
+    "message": "默认保存路径：",
+    "description": "保存路径标签"
+  },
+  "selectDirButton": {
+    "message": "选择目录",
+    "description": "选择目录按钮文本"
+  },
+  "saveSettingsButton": {
+    "message": "保存设置",
+    "description": "保存设置按钮文本"
+  },
+  "savePathPlaceholder": {
+    "message": "请输入或选择保存路径",
+    "description": "保存路径输入框占位符"
+  },
+  "savePathTitle": {
+    "message": "文件保存的默认路径",
+    "description": "保存路径输入框提示"
+  },
+  "addTagsTitle": {
+    "message": "🏷️ 添加标签",
+    "description": "添加标签部分标题"
+  },
+  "pressEnterHint": {
+    "message": "按一下回车键哦~",
+    "description": "添加标签提示"
+  },
+  "copyAndClose": {
+    "message": "🎣 哈哈哈，我抓到了我想要的大鱼",
+    "description": "复制成功并关闭时的消息"
+  },
+  "donateButton": {
+    "message": "请我喝杯咖啡 ☕",
+    "description": "捐赠按钮文本"
+  },
+  "donateTitle": {
+    "message": "感谢支持",
+    "description": "捐赠对话框标题"
+  },
+  "donateDesc": {
+    "message": "如果这个扩展对您有帮助，欢迎赞赏支持~",
+    "description": "捐赠对话框描述"
+  },
+  "wechatPay": {
+    "message": "微信支付",
+    "description": "微信支付标签"
+  },
+  "aliPay": {
+    "message": "支付宝",
+    "description": "支付宝标签"
+  },
+  "settingsTitle": {
+    "message": "设置"
+  },
+  "languageLabel": {
+    "message": "界面语言："
+  },
+  "autoLanguage": {
+    "message": "自动检测"
+  },
+  "chineseLanguage": {
+    "message": "中文"
+  },
+  "englishLanguage": {
+    "message": "English"
+  },
+  "defaultPathLabel": {
+    "message": "默认保存路径："
+  },
+  "defaultPathPlaceholder": {
+    "message": "选择或输入保存路径"
+  },
+  "selectPathTitle": {
+    "message": "选择保存路径"
+  },
+  "defaultPathDesc": {
+    "message": "设置后，保存文件时将默认打开此目录"
+  },
+  "recentPathLabel": {
+    "message": "最近使用路径："
+  },
+  "noRecentPath": {
+    "message": "暂无最近使用记录"
+  },
+  "useThisPath": {
+    "message": "使用此路径"
+  },
+  "saveSettings": {
+    "message": "保存设置"
+  },
+  "settingsSaved": {
+    "message": "设置已保存！",
+    "description": "保存设置成功的提示"
+  },
+  "languageChangedZh": {
+    "message": "语言已切换为中文",
+    "description": "切换到中文的提示"
+  },
+  "languageChangedEn": {
+    "message": "Language changed to English",
+    "description": "切换到英文的提示"
+  },
+  "pathUpdated": {
+    "message": "保存路径已更新",
+    "description": "更新保存路径的提示"
+  },
+  "pathSelectFailed": {
+    "message": "选择目录失败",
+    "description": "选择目录失败的提示"
+  },
+  "contextMenuTitle": {
+    "message": "✨ ClipText-开启我的灵感收集之旅",
+    "description": "右键菜单标题"
+  },
+  "languageChangeFailed": {
+    "message": "切换语言失败",
+    "description": "语言切换失败提示"
+  },
+  "close": {
+    "message": "关闭",
+    "description": "关闭按钮文本"
+  },
+  "hour12Format": {
+    "message": "false",
+    "description": "是否使用12小时制"
+  },
+  "supportDev": {
+    "message": "支持开发者",
+    "description": "支持开发者按钮文本"
+  },
+  "supportDevTitle": {
+    "message": "支持开发者",
+    "description": "支持开发者按钮标题"
+  },
+  "supportDevAria": {
+    "message": "打开支持开发者对话框",
+    "description": "支持开发者按钮无障碍标签"
+  },
+  "viewDocs": {
+    "message": "使用文档",
+    "description": "查看文档链接文本"
+  },
+  "reportIssue": {
+    "message": "反馈问题",
+    "description": "报告问题链接文本"
+  }
+} 
